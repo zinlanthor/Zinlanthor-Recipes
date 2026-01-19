@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zinlanthor's Recipe Collection</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; background-color: #f4f4f4; color: #333; }
+        .container { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; text-transform: uppercase; font-size: 1.1em; letter-spacing: 1px; }
+        p { color: #666; }
+        .recipe-list { list-style: none; padding: 0; }
+        .recipe-item { margin: 10px 0; }
+        .recipe-link { display: block; padding: 15px; background: #fff; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: #2c3e50; font-weight: bold; transition: all 0.2s ease; }
+        .recipe-link:hover { background: #3498db; color: white; border-color: #3498db; transform: translateX(5px); }
+        .version-tag { float: right; font-family: monospace; font-size: 0.8em; opacity: 0.7; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zinlanthor's Digital Cookbook</h1>
+        <p>Open a recipe on your phone's Google App and tap <strong>"Add to Cookbook"</strong> to sync with your smart displays.</p>
+
+        <h2>Pasta Recipes</h2>
+        <ul class="recipe-list">
+            <li class="recipe-item">
+                <a class="recipe-link" href="pasta/Garlic-Herb-Sausage-Linguine.html">
+                    Garlic & Herb Sausage Linguine
+                    <span class="version-tag">v1.7</span>
+                </a>
+            </li>
+            </ul>
+
+        <hr style="margin-top: 40px; border: 0; border-top: 1px solid #eee;">
+        <p style="font-size: 0.8em; text-align: center;">Managed by Zinlanthor | turtle-approved 🐢</p>
+    </div>
+</body>
+</html>
